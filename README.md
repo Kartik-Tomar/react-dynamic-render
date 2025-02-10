@@ -1,6 +1,6 @@
 # react-dynamic-render Completely replace dangerouslySetInnerHTML to render dynamic HTML and CSS in React
 
-To render external HTML in React, the only way is “`dangerouslySetInnerHTM`L” which as the name suggests can be dangerous as it makes your code vulnerable to cross-site scripting (XSS) attacks.
+To render external HTML in React, the only way is “`dangerouslySetInnerHTML`” which as the name suggests can be dangerous as it makes your code vulnerable to cross-site scripting (XSS) attacks.
 
 !['stache](https://i.imgflip.com/9joniq.jpg)
 
