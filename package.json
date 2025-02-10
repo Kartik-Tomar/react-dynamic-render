@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-render",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Completely replace dangerouslySetInnerHTML to render dynamic HTML and CSS in React",
   "author": "Kartik Tomar",
   "license": "MIT",
