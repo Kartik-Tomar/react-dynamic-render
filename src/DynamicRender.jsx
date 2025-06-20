@@ -12,6 +12,10 @@ const DynamicRender = ({ htmlString, htmlJson, customComponents }) => {
     } else if (typeof htmlJson === "string") {
       try {
         const data = JSON.parse(htmlJson);
+        if (!data || !data.component || !customComponents[data.component]) {
+          console.error("Invalid component data or component not found");
+          return htmlJson;
+        }
         return React.createElement(customComponents[data?.component], {
           ...data.props,
         });
